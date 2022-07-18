@@ -1,0 +1,6 @@
+<form method="POST" enctype="multipart/form-data">
+    {%csrf_token%}
+    <label for="img">Select image:</label>
+    <input type="file" id="img" name="img" accept="image/*">
+    <input type="submit">
+  </form>
